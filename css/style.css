@@ -123,6 +123,11 @@ footer .backtotop {
 .footer-nav {
   border: 1px solid yellow;
 }
+
+.hidden-nav {
+  display: none;
+}
+
 /* =================================
   Media Querries - Tablet
 ==================================== */
@@ -154,8 +159,22 @@ nav {
 }
 .main-image,
 .main-paragraph {
-  width: 50%;
+  width: 346px;
+  height: 252px;
   float: right;
+}
+
+.main-paragraph p {
+  width: 346px;
+  height: 252px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+img.main-image {
+  width: 346px;
+  height: 252px;
+  margin-top: -25px;
 }
 
 .row-one {
@@ -200,6 +219,28 @@ nav {
   padding-bottom: 35px;
 }
 
+.hidden-one {
+  display: none;
+}
+
+.name {
+  float: left;
+  margin-top: -15px;
+}
+
+.hidden-nav {
+  display: inline;
+  float: right;
+  margin-top: -30px;
+  padding-right: 35px;
+}
+
+.hidden-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
 .clearfix:after {
   content: "";
   display: table;
@@ -229,18 +270,78 @@ nav {
 .intro {
   width: 80%;
   max-width: 1150px;
+  margin: 0 auto;
+  }
+
+nav {
+  background-color: purple;
+}
+
+.main-nav {
+  display: inline-block;
+}
+
+.main-nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 10px;
 }
 
 .main-image,
 .main-paragraph {
   width: 50%;
+  float: right;
+}
+
+.laptop-one {
+    width: 80%;
+    max-width: 1150px;
+}
+
+.one {
+  width: 30%;
+}
+
+.two {
+  width: 30%;
+}
+
+.three {
+  width: 30%;
+}
+.laptop-two {
+    width: 80%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.four {
+  width: 30%;
+}
+.five {
+  width: 30%;
+}
+.six {
+  width: 30%;
+  margin-top: -437px;
+}
+
+.main-footer h3 {
+  padding-bottom: 25px;
+}
+
+.footer-nav {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
-
 }
 }
