@@ -9,6 +9,7 @@ body {
   background-color: #F0F8FF;
   margin: 0;
   text-align: center;
+    overflow-x: hidden;
 }
 
 .container {
@@ -109,8 +110,9 @@ footer .contact {
   width: 50%;
 }
 
-li.name {
+.footer-nav h3 {
   float: left;
+  margin: 0 auto;
 }
 
 li.backtotop {
@@ -191,23 +193,49 @@ main p {
 
 }
 
-.footer-nav {
-  margin-bottom: 100px;
-  display: inline-block;
-  float: left;
+hr {
+  width: 80%;
+}
+.footer-nav ul{
+  width: 90%;
+  text-align: right;
+  margin: auto;
 }
 
-.hidden-one {
+.backtotop {
   display: none;
 }
 
-.name {
-  padding-right: 300px;
+.main-footer h3 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+.footer-nav ul {
+  float: right;
 }
 
 .hidden-two {
   display: inline-block;
   margin: 0 20px;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
 }
 
 .clearfix:after {
@@ -225,6 +253,48 @@ main p {
 
 @media (min-width: 1025px) {
 
+nav {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+h1 {
+  display: inline-block;
+  padding-top: 50px;
+  margin-left: -17px;
+}
+
+nav ul {
+  float: right;
+  padding-top: 40px;
+}
+
+  .portfolio {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .portfolio-one,
+  .portfolio-two,
+  .portfolio-three,
+  .portfolio-four,
+  .portfolio-five,
+  .portfolio-six {
+    float: left;
+    width: 30%;
+    margin: 20px 10px;
+  }
+
+  .main-footer {
+    width: 50%;
+    margin: 50px auto;
+
+  }
+
+hr {
+  width: 95%;
+}
 
   .clearfix:after {
     content: "";
