@@ -8,96 +8,99 @@
     <title>Responsive Website</title>
   </head>
   <body>
-    <header id="top">
-      <h1>Jide Delano</h1>
-      <nav>
-        <ul class="main-nav uppercase ">
+    <div class=<"container">
+    <header class="clearfix" id="top">
+
+      <nav class="clearfix">
+        <h1>Jide Delano</h1>
+        <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="#main">portfolio</a></li>
           <li><a href="#footer">Contact</a></li>
         </ul>
       </nav>
-      <div class="intro clearfix">
-      <div class="main-image">
+
+
+      <div class="intro">
         <img src="images/responsive-layout-profile.png" alt="A profile photo of me" class="main-image">
-      </div>
-      <div class="main-paragraph">
         <p>Hi! I'm a front-end developer who loves responsive design and CSS.
         I recently finished a degree  in front-end web development at Treehouse
         and am excited to put my skills to use!</p>
       </div>
-    </div>
 
     </header>
 
-    <main>
-      <h2 class="uppercase portfolio" id="main">Porfolio</h2>
-      <div class="one row-one">
-        <a href="#"><img src="images/portfolio-1.png" alt="Portfolio image 1">
+    <main class="clearfix" id="main">
+      <h2 style="margin-top: 55px;">Porfolio</h2>
+
+      <div  class="portfolio">
+      <div class="portfolio-one">
+        <img src="images/portfolio-1.png" alt="Portfolio image 1">
         <h3 class="portfolio">Marketing Page</h3>
         <p>This project shows the front page of a marketting website meant for a
            specific business I'm interested in.</p>
       </div>
 
-      <div class="two row-one">
-        <a href="#"><img src="images/portfolio-2.png" alt="Portfolio image 2"></a>
+      <div class="portfolio-two">
+        <img src="images/portfolio-2.png" alt="Portfolio image 2">
         <h3 class="portfolio">Search Page</h3>
         <p>This project searches through a specific database to find information
            that the user is trying to look up.</p>
       </div>
 
-      <div class="three row-two">
-        <a href="#"><img src="images/portfolio-3.png" alt="Portfolio image 3"></a>
+      <div class="portfolio-three">
+        <img src="images/portfolio-3.png" alt="Portfolio image 3">
         <h3 class="portfolio">Travel App</h3>
         <p>This project compares travel times based on different transportation
            methods and tells you the best one.</p>
       </div>
 
-      <div class="four row-two">
-        <a href="#"><img src="images/portfolio-4.png" alt="Portfolio image 4"></a>
+      <div class="portfolio-four">
+        <img src="images/portfolio-4.png" alt="Portfolio image 4">
         <h3 class="portfolio">Map of Favorite Spots</h3>
         <p>This project uses mapping apps to plot points for my favorite spots
            in the city for a do-it-yourself walking tour.</p>
       </div>
 
-      <div class="five row-three">
-        <a href="#"><img src="images/portfolio-5.png" alt="Portfolio image 5"></a>
+      <div class="portfolio-five">
+        <img src="images/portfolio-5.png" alt="Portfolio image 5">
         <h3 class="portfolio">Photo Gallery</h3>
         <p>This project shows pictures from a recent trip to the viewer and
            allows them to easily navigate through photos.</p>
       </div>
 
-      <div class="six row-three">
-        <a href="#"><img src="images/portfolio-6.png" alt="Portfolio image 6"></a>
+      <div class="portfolio-six">
+        <img src="images/portfolio-6.png" alt="Portfolio image 6">
         <h3 class="portfolio">Calculator</h3>
         <p>Someone can enter in the numbers they want, and press the big blue
           button and get the result.</p>
       </div>
+    </div>
 
     </main>
 
     <footer id="footer">
       <div class="main-footer">
-        <h3 class="uppercase">Contact</h3>
+        <h3>Contact</h3>
         <p>If you're interested in chatting or want more information about what
            I've been working on, I'd love to hear from you!</p>
-        <p class="contact">Phone: <a href="tel:1115551234">+1 (111) 555-1234</a></p>
-        <p  class="contact">Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+        <p class="contact">Phone: <strong>+1 (111) 555-1234</strong></p>
+        <p  class="contact">Email: <strong>email@yoursite.com</strong></p>
       </div>
+
+      <hr>
 
       <div class="footer-nav">
         <ul>
           <li class="name">Jide Delano</li>
-          <li class="uppercase backtotop hidden-one"><a href="#top">Back to top</a></li>
+          <li class="backtotop hidden-one"><a href="#top">Back to top</a></li>
+          <li class="hidden-two"><a href="index.html">Home</a></li>
+          <li class="hidden-two"><a href="#main">Portfolio</a></li>
+          <li class="hidden-two"><a href="#footer">Contact</a></li>
       </ul>
-    <div class="hidden-nav">
-      <ul>
-            <li class="uppercase hidden-two"><a href="index.html">Home</a></li>
-            <li class="uppercase hidden-two"><a href="#main">Portfolio</a></li>
-            <li class="uppercase hidden-two"><a href="#footer">Contact</a></li>        
-      </ul>
+    </div>
       </div>
     </footer>
-
+</div>
   </body>
 </html>
